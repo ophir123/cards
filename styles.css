@@ -1,0 +1,123 @@
+
+/*-----------------------------------Tags------------------------------*/
+body{
+   text-align: center;
+   width: 1300px;
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   font-size: 11px;
+   font-weight: 200;
+  }
+
+h1{
+      width: 25%;
+      margin: 0 auto;
+      text-align: justify;
+      text-align-last: justify;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.4;
+}
+h2{
+      width: 50%;
+      padding-left: 20px;
+      padding-top: 25px;
+      margin: 0;
+}
+
+
+/*-----------------------------------Classes------------------------------*/
+.top-container{
+   padding: 60px 0 50px;
+}
+.middle-container{
+  position: relative;
+  height: 380px;
+  width: 790px;
+  margin: 0 auto;
+}
+.team-builder{
+  border-radius: 5px;
+  position: relative;
+  text-align: left;
+  width: 250px;
+  height: 180px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 15px grey;
+}
+.supervisor{
+  border-radius: 5px;
+  position: absolute;
+  text-align: left;
+  width: 250px;
+  height: 180px;
+  top: 110px;
+  box-shadow: 1px 1px 15px grey;
+
+}
+.calculator{
+  border-radius: 5px;
+  position: absolute;
+  text-align: left;
+  width: 250px;
+  height: 180px;
+  top: 110px;
+  right: 0;
+  box-shadow: 1px 1px 15px grey;
+}
+.karma{
+  border-radius: 5px;
+  position: absolute;
+  text-align: left;
+  width: 250px;
+  height: 180px;
+  bottom: 0;
+  left: 270px;
+  box-shadow: 1px 1px 15px grey;
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.parag{
+  width: 40%;
+  margin: 30px auto 0;
+}
+.par-box{
+  padding-left: 20px;
+  font-size: 10px;
+  width: 80%
+}
+.bold-heading{
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.icon{
+  width: 20%;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.bar-builder{
+  background-color: hsl(0, 78%, 62%);
+  height: 2%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.bar-supervisor{
+  background-color: hsl(180, 62%, 55%);
+  height: 2%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.bar-calculator{
+  background-color: hsl(212, 86%, 64%);
+  height: 2%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.bar-karma{
+  background-color: hsl(34, 97%, 64%);
+  height: 2%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
